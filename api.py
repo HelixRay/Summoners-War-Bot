@@ -31,9 +31,9 @@ class API(object):
 		#if 'Admin-PC' == socket.gethostname():
 		#self.s.proxies.update({'http': 'http://127.0.0.1:8888','https': 'http://127.0.0.1:8888',})
 		self.game_index=2623
-		self.proto_ver=11880
-		self.sec_ver='U2Se0nMz'
-		self.app_version='6.2.7'
+		self.proto_ver=11890
+		self.sec_ver='8C6d5StN'
+		self.app_version='6.2.8'
 		self.c2_api='https://summonerswar-%s.qpyou.cn/api/gateway_c2.php'
 		if uid:	self.uid=int(uid)
 		if did:	self.did=int(did)
